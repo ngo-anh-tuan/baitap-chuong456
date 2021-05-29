@@ -1,0 +1,11 @@
+from tkinter import *
+tk = Tk()
+cb=Label(tk, text="Họ và tên: Ngô Anh Tuấn")
+cb.grid(column=0,row=1)
+cb=Label(tk, text="Ngày sinh: 255/03/2001")
+cb.grid(column=0,row=2)
+cb=Label(tk, text="MSSV: 1575202160023")
+cb.grid(column=0,row=3)
+cb=Label(tk, text="Ngành: ĐK&TĐH")
+cb.grid(column=0,row=4)
+tk.mainloop()
