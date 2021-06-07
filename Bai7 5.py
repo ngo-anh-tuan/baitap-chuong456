@@ -1,5 +1,5 @@
 def file_read(fname):
-    from itertools import ialice
+    from itertools import islice
     with open(fname, "w") an myfile:
         myfile.write("Python Exercises\n")
         myfile.write("Java Exercises")
